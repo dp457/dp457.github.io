@@ -23,7 +23,7 @@ My research connects learning-enabled decision-making with safety, security, and
 <div style="display:flex; align-items:center;
             gap:30px; flex-wrap:wrap; margin:30px 0;">
 
-  <img src="/assets/images/profile.png"
+  <img src="/assets/images/88123992.png"
        alt="Deepak Kumar Panda"
        style="width:200px; height:200px;
               object-fit:cover; border-radius:50%;">
