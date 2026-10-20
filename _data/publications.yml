@@ -1,0 +1,303 @@
+- id: panda2026belief
+  year: 2026
+  title: Belief-Adaptive Online Autonomy for Quadrotor UAV Navigation under GNSS Degradation in Urban Environments
+  authors: Panda, Deepak Kumar, Guo, Weisi
+  venue: 2026 IEEE 24th International Conference on Ubiquitous Computing and Communications (IUCC-2026)
+  type: Conference paper
+  volume: ''
+  number: ''
+  pages: ''
+  doi: ''
+  url: ''
+- id: panda2026curriculum
+  year: 2026
+  title: Curriculum-Adapted Robust Reinforcement Learning for UAV Deconfliction in Adversarial Environments
+  authors: Panda, Deepak Kumar, Perrusquía, Adolfo, Guo, Weisi
+  venue: IEEE Transactions on Reliability
+  type: Journal article
+  volume: ''
+  number: ''
+  pages: ''
+  doi: ''
+  url: ''
+- id: panda2026meta
+  year: 2026
+  title: Meta Policy Switching for Resilient UAV Navigation in Adversarial Airspace
+  authors: Panda, Deepak Kumar, Guo, Weisi
+  venue: Information Sciences
+  type: Journal article
+  volume: ''
+  number: ''
+  pages: '124096'
+  doi: ''
+  url: ''
+- id: conrad2025dynamic
+  year: 2025
+  title: Dynamic Non-Binary Prioritisation for UTM Resource Allocation
+  authors: Conrad, Christopher, Tsourdos, Antonios, Panda, Deepak Kumar, Guo, Weisi, Shamim, Mikael, Vanhandenhove, Geert
+  venue: 2025 Integrated Communications, Navigation and Surveillance Conference (ICNS)
+  type: Conference paper
+  volume: ''
+  number: ''
+  pages: 1--13
+  doi: ''
+  url: ''
+- id: panda2025gaussian
+  year: 2025
+  title: Gaussian process digital twin for voltage stability analysis of complex power networks under perturbation
+  authors: Panda, Deepak Kumar, Das, Saptarshi
+  venue: Expert Systems with Applications
+  type: Journal article
+  volume: '267'
+  number: ''
+  pages: '126151'
+  doi: ''
+  url: ''
+- id: panda2025generative
+  year: 2025
+  title: Generative Adversarial Evasion and Out-of-Distribution Detection for UAV Cyber-Attacks
+  authors: Panda, Deepak Kumar, Guo, Weisi
+  venue: 2025 IEEE International Conference on Systems, Man, and Cybernetics (SMC)
+  type: Conference paper
+  volume: ''
+  number: ''
+  pages: 6295--6300
+  doi: ''
+  url: ''
+- id: perrusquia2025interpreting
+  year: 2025
+  title: 'Interpreting and Enhancing Decisions in Autonomous Navigation: A Belief-Desire-Intention Reinforcement Learning
+    (BDI-RL) Approach'
+  authors: Perrusquía, Adolfo, Panda, Deepak Kumar, Guo, Weisi
+  venue: 2025 IEEE International Conference on Systems, Man, and Cybernetics (SMC)
+  type: Conference paper
+  volume: ''
+  number: ''
+  pages: 5643--5648
+  doi: ''
+  url: ''
+- id: panda2025parametric
+  year: 2025
+  title: Parametric study of adaptive reinforcement learning for battery operations in microgrids
+  authors: Panda, Deepak Kumar, Das, Saptarshi, Abusara, Mohammad
+  venue: Renewable Energy
+  type: Journal article
+  volume: '250'
+  number: ''
+  pages: '123250'
+  doi: ''
+  url: ''
+- id: panda2025real
+  year: 2025
+  title: Real-Time Bayesian Detection of Drift-Evasive GNSS Spoofing in Reinforcement Learning Based UAV Deconfliction
+  authors: Panda, Deepak Kumar, Guo, Weisi
+  venue: International Conference on Robot Intelligence Technology and Applications (RiTA) (2025)
+  type: Conference paper
+  volume: ''
+  number: ''
+  pages: ''
+  doi: ''
+  url: ''
+- id: panda2024action
+  year: 2024
+  title: Action robust reinforcement learning for air mobility deconfliction against conflict induced spoofing
+  authors: Panda, Deepak Kumar, Guo, Weisi
+  venue: IEEE Transactions on Intelligent Transportation Systems
+  type: Journal article
+  volume: '25'
+  number: '12'
+  pages: 21343--21355
+  doi: ''
+  url: ''
+- id: panda2024observer
+  year: 2024
+  title: Observer based decentralized load frequency control with false data injection attack for specified network quality
+    and delay
+  authors: Panda, Deepak Kumar, Halder, Kaushik, Das, Saptarshi, Townley, Stuart
+  venue: Chaos, Solitons & Fractals
+  type: Journal article
+  volume: '186'
+  number: ''
+  pages: '115323'
+  doi: ''
+  url: ''
+- id: panda2024prioritized
+  year: 2024
+  title: Prioritized experience replay based deep distributional reinforcement learning for battery operation in microgrids
+  authors: Panda, Deepak Kumar, Turner, Oliver, Das, Saptarshi, Abusara, Mohammad
+  venue: Journal of Cleaner Production
+  type: Journal article
+  volume: '434'
+  number: ''
+  pages: '139947'
+  doi: ''
+  url: ''
+- id: conrad2024simulating
+  year: 2024
+  title: Simulating Enhanced Vertiport Management in a Multimodal Transportation Ecosystem
+  authors: Conrad, Christopher, Xu, Yan, Panda, Deepak Kumar, Tsourdos, Antonios
+  venue: 2024 IEEE Aerospace Conference
+  type: Conference paper
+  volume: ''
+  number: ''
+  pages: 1--14
+  doi: ''
+  url: ''
+- id: alyami2023bayesian
+  year: 2023
+  title: Bayesian noise modelling for state estimation of the spread of COVID-19 in Saudi Arabia with extended Kalman filters
+  authors: Alyami, Lamia, Panda, Deepak Kumar, Das, Saptarshi
+  venue: Sensors
+  type: Journal article
+  volume: '23'
+  number: '10'
+  pages: '4734'
+  doi: ''
+  url: ''
+- id: panda2023fragility
+  year: 2023
+  title: Fragility Impact of RL Based Advanced Air Mobility under Gradient Attacks and Packet Drop Constraints
+  authors: Panda, Deepak Kumar, Guo, Weisi
+  venue: 2023 IEEE 98th Vehicular Technology Conference (VTC2023-Fall)
+  type: Conference paper
+  volume: ''
+  number: ''
+  pages: 1--7
+  doi: ''
+  url: ''
+- id: panda2023hyperparameter
+  year: 2023
+  title: Hyperparameter optimized classification pipeline for handling unbalanced urban and rural energy consumption patterns
+  authors: Panda, Deepak Kumar, Das, Saptarshi, Townley, Stuart
+  venue: Expert Systems with Applications
+  type: Journal article
+  volume: '214'
+  number: ''
+  pages: '119127'
+  doi: ''
+  url: ''
+- id: conrad2023intelligent
+  year: 2023
+  title: Intelligent vertiport traffic flow management for scalable advanced air mobility operations
+  authors: Conrad, Christopher, Xu, Yan, Panda, Deepak Kumar, Tsourdos, Antonios
+  venue: IEEE/AIAA 42nd Digital Avionics Systems Conference (DASC), 2023
+  type: Conference paper
+  volume: ''
+  number: ''
+  pages: ''
+  doi: ''
+  url: ''
+- id: panda2022data
+  year: 2022
+  title: Data Analytics and Control for Stability and Resilience of Future Smart Grids
+  authors: Panda, DK
+  venue: University of Exeter
+  type: Thesis
+  volume: ''
+  number: ''
+  pages: ''
+  doi: ''
+  url: ''
+- id: halder2022specified
+  year: 2022
+  title: Specified QoS based networked observer and PI controller design with disturbance and noise rejection under random
+    packet dropout
+  authors: Halder, Kaushik, Panda, Deepak Kumar, Das, Saptarshi, Das, Sourav, Gupta, Amitava
+  venue: 'Physica A: Statistical Mechanics and its Applications'
+  type: Journal article
+  volume: '604'
+  number: ''
+  pages: '127965'
+  doi: ''
+  url: ''
+- id: ghosh2021cross
+  year: 2021
+  title: Cross-correlation based classification of electrical appliances for non-intrusive load monitoring
+  authors: Ghosh, Soumyajit, Panda, Deepak Kumar, Das, Saptarshi, Chatterjee, Debashis
+  venue: 2021 International Conference on Sustainable Energy and Future Electric Transportation (SEFET)
+  type: Conference paper
+  volume: ''
+  number: ''
+  pages: 1--6
+  doi: ''
+  url: ''
+- id: panda2021economic
+  year: 2021
+  title: Economic operational analytics for energy storage placement at different grid locations and contingency scenarios
+    with stochastic wind profiles
+  authors: Panda, Deepak Kumar, Das, Saptarshi
+  venue: Renewable and Sustainable Energy Reviews
+  type: Journal article
+  volume: '137'
+  number: ''
+  pages: '110474'
+  doi: ''
+  url: ''
+- id: halder2021qos
+  year: 2021
+  title: QoS aware joint observer and networked PI/PID controller design using LMIs under specified rate of packet dropouts
+  authors: Halder, Kaushik, Das, Saptarshi, Panda, Deepak Kumar, Das, Sourav, Gupta, Amitava
+  venue: Applied Mathematics and Computation
+  type: Journal article
+  volume: '401'
+  number: ''
+  pages: '126125'
+  doi: ''
+  url: ''
+- id: panda2021robust
+  year: 2021
+  title: Robust Bayesian regression model of centrality and voltage stability index for power networks under nodal attack
+  authors: Panda, Deepak Kumar, Das, Saptarshi
+  venue: 2021 3rd International Youth Conference on Radio Electronics, Electrical and Power Engineering (REEPE)
+  type: Conference paper
+  volume: ''
+  number: ''
+  pages: 1--7
+  doi: ''
+  url: ''
+- id: panda2021smart
+  year: 2021
+  title: Smart grid architecture model for control, optimization and data analytics of future power networks with more renewable
+    energy
+  authors: Panda, Deepak Kumar, Das, Saptarshi
+  venue: Journal of Cleaner Production
+  type: Journal article
+  volume: '301'
+  number: ''
+  pages: '126877'
+  doi: ''
+  url: ''
+- id: panda2020toward
+  year: 2020
+  title: Toward a more renewable energy-based LFC under random packet transmissions and delays with stochastic generation
+    and demand
+  authors: Panda, Deepak Kumar, Das, Saptarshi, Townley, Stuart
+  venue: IEEE Transactions on Automation Science and Engineering
+  type: Journal article
+  volume: '19'
+  number: '2'
+  pages: 1217--1232
+  doi: ''
+  url: ''
+- id: panda2019regression
+  year: 2019
+  title: Regression analysis of grid stability under decentralized control
+  authors: Panda, Deepak Kumar, Das, Saptarshi
+  venue: 2019 International Conference on Engineering, Science, and Industrial Applications (ICESI)
+  type: Conference paper
+  volume: ''
+  number: ''
+  pages: 1--6
+  doi: ''
+  url: ''
+- id: panda2016sensorless
+  year: 2016
+  title: Sensorless speed estimation of linear induction motor under variable discrete loading using cascaded MRAS observer
+  authors: Panda, Deepak Kumar, Ashok, S
+  venue: 2016 International Conference on Emerging Trends in Electrical Electronics & Sustainable Energy Systems (ICETEESES)
+  type: Conference paper
+  volume: ''
+  number: ''
+  pages: 274--279
+  doi: ''
+  url: ''
