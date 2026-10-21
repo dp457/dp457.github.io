@@ -714,5 +714,37 @@ a:hover {
     min-width: 0;
   }
 }
+/* STAGE 5: Append to the END of assets/main.scss. */
+.research-page-intro { max-width: 850px; padding: 18px 0 34px; border-bottom: 1px solid var(--border, #e3eaf0); margin-bottom: 38px; }
+.section-eyebrow { color: var(--accent, #176b91); font-size: 12px; font-weight: 750; letter-spacing: 1.7px; margin-bottom: 12px; }
+.research-page-intro h1 { font-size: clamp(36px, 4vw, 48px); line-height: 1.2; margin-bottom: 18px; }
+.section-lead { font-size: 17px; line-height: 1.8; color: #536477; max-width: 790px; }
+.section-note { font-size: 13px; color: #64748b; }
+.research-page-section { margin: 42px 0 55px; }
+.research-page-section > h2 { font-size: 27px; margin-bottom: 24px; }
+.research-theme-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
+.research-theme-card { padding: 30px; background: #f6f9fc; border: 1px solid #e3eaf0; border-radius: 14px; transition: transform .2s ease, box-shadow .2s ease; }
+.research-theme-card:hover, .project-feature-card:hover { transform: translateY(-3px); box-shadow: 0 12px 30px rgba(20,40,62,.07); }
+.theme-index { color: #176b91; font-size: 11px; font-weight: 750; letter-spacing: 1.2px; }
+.research-theme-card h3 { font-size: 20px; line-height: 1.4; margin: 16px 0 12px; }
+.research-theme-card p { color: #536477; font-size: 14px; line-height: 1.75; }
+.research-theme-card .theme-keywords { color: #176b91; font-size: 12px; font-weight: 600; margin-top: 22px; margin-bottom: 0; }
+.research-next-steps { padding: 32px; background: #f6f9fc; border-radius: 14px; }
+.research-next-steps p { color: #536477; }
+.research-page-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 20px; }
+.research-page-actions a { padding: 10px 17px; border-radius: 8px; font-size: 13px; font-weight: 650; text-decoration: none; }
+.research-action-primary { color: #fff !important; background: #14283e; }
+.research-action-secondary { color: #14283e; background: #fff; border: 1px solid #cbd5e1; }
+.research-page-actions a:hover { opacity: .88; text-decoration: none; }
+.project-card-list { display: grid; gap: 22px; }
+.project-feature-card { border: 1px solid #e3eaf0; border-left: 4px solid #176b91; border-radius: 12px; padding: 30px 32px; background: #fff; transition: transform .2s ease, box-shadow .2s ease; }
+.project-card-meta { display: flex; justify-content: space-between; gap: 16px; color: #176b91; font-size: 12px; font-weight: 750; letter-spacing: 1px; }
+.project-category { text-align: right; }
+.project-feature-card h2 { margin: 18px 0 14px; font-size: 24px; }
+.project-feature-card p { color: #536477; line-height: 1.8; }
+.project-tags { display: flex; flex-wrap: wrap; gap: 8px; margin: 20px 0; }
+.project-tags span { background: #eef5f9; color: #315d75; border-radius: 20px; padding: 5px 11px; font-size: 12px; }
+.project-feature-card > a { font-weight: 650; font-size: 14px; }
+@media (max-width: 720px) { .research-theme-grid { grid-template-columns: 1fr; } .research-theme-card, .project-feature-card { padding: 23px 20px; } .research-next-steps { padding: 24px 20px; } .project-feature-card h2 { font-size: 21px; } }
 
 
