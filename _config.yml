@@ -1,12 +1,17 @@
-title: Dr Deepak Kumar Panda
-description: Cybersecurity, trustworthy AI and autonomous systems
+
+title: Deepak K. Panda
+description: "Research in cybersecurity, trustworthy AI, and the safety and assurance of autonomous systems."
+
 url: "https://dp457.github.io"
 baseurl: ""
+
 markdown: kramdown
 theme: minima
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
 header_pages:
   - research.md
   - publications.md
@@ -14,5 +19,3 @@ header_pages:
   - blog.md
   - teaching.md
   - contact.md
-
-# Customize for your GitHub username before deploying.
