@@ -1,45 +1,167 @@
+
 ---
-layout: home
-title: Home
+layout: page
+title: ""
+permalink: /
 ---
-# Dr Deepak Kumar Panda
 
-**Cybersecurity · Trustworthy AI · Autonomous Systems**
+<div class="academic-hero">
+  <div class="hero-content">
 
-I research resilient and trustworthy autonomous systems, with interests in AI/ML assurance, cybersecurity, adversarial machine learning, reinforcement learning, and cyber-physical systems.
+    <p class="hero-eyebrow">
+      CYBERSECURITY · TRUSTWORTHY AI · AUTONOMOUS SYSTEMS
+    </p>
 
-My research connects learning-enabled decision-making with safety, security, and reliability under uncertain and adversarial conditions. Earlier work explored smart grids, networked control, digital twins, and energy systems.
-
-**Affiliation:** Cranfield University, United Kingdom (verify current title before publishing).
-
-[Research](research.html) · [Publications](publications.html) · [Technical blog](blog.html) · [Google Scholar](https://scholar.google.com/citations?user=dfY4ZvkAAAAJ&hl=en) · [ORCID](https://orcid.org/0009-0003-9925-4448)
-
-## Recent writing
-
-{% for post in site.posts limit:3 %}
-- [{{ post.title }}]({{ post.url | relative_url }}) — {{ post.date | date: '%d %B %Y' }}
-{% endfor %}
-
-<div style="display:flex; align-items:center;
-            gap:30px; flex-wrap:wrap; margin:30px 0;">
-
-  <img src="/assets/images/88123992.png"
-       alt="Deepak Kumar Panda"
-       style="width:200px; height:200px;
-              object-fit:cover; border-radius:50%;">
-
-  <div style="flex:1; min-width:250px;">
     <h1>Dr Deepak Kumar Panda</h1>
 
-    <p><strong>Cybersecurity | Trustworthy AI |
-    Autonomous Systems</strong></p>
+    <h2>
+      Advancing the Security and Assurance
+      of Autonomous Systems
+    </h2>
 
     <p>
-      My research focuses on cybersecurity,
-      resilient artificial intelligence,
-      reinforcement learning, and assurance
-      of autonomous systems.
+      My research focuses on cybersecurity, artificial
+      intelligence, reinforcement learning, and the
+      safety and assurance of autonomous systems.
+      I investigate how learning-enabled systems
+      can operate reliably under uncertainty,
+      adversarial conditions, and emerging
+      cybersecurity threats.
+    </p>
+
+    <p>
+      My broader research interests include
+      adversarial machine learning, cyber-physical
+      systems, resilient decision-making, and
+      trustworthy autonomous intelligence.
+    </p>
+
+    <div class="hero-links">
+      <a class="hero-button primary"
+         href="{{ '/research.html' | relative_url }}">
+        Explore Research
+      </a>
+
+      <a class="hero-button secondary"
+         href="{{ '/publications.html' | relative_url }}">
+        Publications
+      </a>
+    </div>
+
+    <div class="academic-social">
+      <a href="https://scholar.google.com/citations?user=dfY4ZvkAAAAJ">
+        Google Scholar
+      </a>
+      <a href="https://orcid.org/0009-0003-9925-4448">
+        ORCID
+      </a>
+      <a href="https://github.com/dp457">
+        GitHub
+      </a>
+    </div>
+
+  </div>
+
+  <div class="hero-photo">
+    <img
+      src="{{ '/assets/images/88123992.png' | relative_url }}"
+      alt="Portrait of Deepak Kumar Panda">
+  </div>
+</div>
+
+<section class="homepage-section">
+  <h2>Research Areas</h2>
+
+  <div class="research-grid">
+
+    <div class="research-card">
+      <h3>Cybersecurity of Autonomous Systems</h3>
+      <p>
+        Cyber threats, adversarial attacks,
+        system resilience, and security assurance
+        for autonomous cyber-physical systems.
+      </p>
+    </div>
+
+    <div class="research-card">
+      <h3>Trustworthy and Resilient AI</h3>
+      <p>
+        Robust reinforcement learning, adversarial
+        machine learning, distribution shifts,
+        and reliable AI-enabled decision-making.
+      </p>
+    </div>
+
+    <div class="research-card">
+      <h3>AI and System Safety Assurance</h3>
+      <p>
+        Safety-critical autonomy, cybersecurity
+        assurance, and evidence-based evaluation
+        of learning-enabled systems.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<section class="homepage-section">
+  <h2>Selected Publications</h2>
+
+  <div class="featured-publication">
+    <h3>
+      Curriculum-Adapted Robust Reinforcement Learning
+      for UAV Deconfliction in Adversarial Environments
+    </h3>
+    <p>IEEE Transactions on Reliability, 2026</p>
+  </div>
+
+  <div class="featured-publication">
+    <h3>
+      Meta Policy Switching for Resilient UAV
+      Navigation in Adversarial Airspace
+    </h3>
+    <p>Information Sciences, 2026</p>
+  </div>
+
+  <div class="featured-publication">
+    <h3>
+      Action Robust Reinforcement Learning for
+      Air Mobility Deconfliction Against
+      Conflict Induced Spoofing
+    </h3>
+    <p>
+      IEEE Transactions on Intelligent
+      Transportation Systems, 2024
     </p>
   </div>
 
-</div>
+  <p>
+    <a href="{{ '/publications.html' | relative_url }}">
+      View all publications →
+    </a>
+  </p>
+</section>
+
+<section class="homepage-section">
+  <h2>Latest Technical Writing</h2>
+
+  {% for post in site.posts limit:3 %}
+  <div class="blog-preview">
+    <p class="blog-date">
+      {{ post.date | date: "%d %B %Y" }}
+    </p>
+    <h3>
+      <a href="{{ post.url | relative_url }}">
+        {{ post.title }}
+      </a>
+    </h3>
+    <p>{{ post.excerpt | strip_html | truncatewords: 35 }}</p>
+  </div>
+  {% endfor %}
+
+  <p>
+    <a href="{{ '/blog.html' | relative_url }}">
+      Explore the technical blog →
+    </a>
+  </p>
+</section>
