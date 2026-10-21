@@ -380,3 +380,161 @@ a:hover {
   }
 }
 
+
+/* ========================================
+   STAGE 3: HEADER AND NAVIGATION
+   ======================================== */
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: rgba(255, 255, 255, 0.97);
+  border-top: none;
+  border-bottom: 1px solid #e3eaf0;
+  box-shadow: 0 2px 12px rgba(20, 40, 62, 0.035);
+}
+
+.site-header .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  min-height: 70px;
+}
+
+.site-title,
+.site-title:visited {
+  font-size: 22px;
+  font-weight: 750;
+  letter-spacing: -0.6px;
+  color: #14283e !important;
+  white-space: nowrap;
+  float: none;
+}
+
+.site-title:hover {
+  color: #176b91 !important;
+  text-decoration: none;
+}
+
+.site-nav {
+  position: relative;
+  float: none;
+  line-height: normal;
+}
+
+.site-nav .page-link {
+  display: inline-block;
+  color: #34465a;
+  font-size: 14px;
+  font-weight: 550;
+  margin-left: 18px;
+  padding: 12px 0;
+  transition: color 0.2s ease;
+}
+
+.site-nav .page-link:hover,
+.site-nav .page-link:focus-visible {
+  color: #176b91;
+  text-decoration: none;
+}
+
+/* ========================================
+   MOBILE NAVIGATION
+   ======================================== */
+
+@media screen and (max-width: 800px) {
+  .site-header .wrapper {
+    display: block;
+    min-height: 62px;
+  }
+
+  .site-title {
+    font-size: 19px;
+    line-height: 62px;
+  }
+
+  .site-nav {
+    position: absolute;
+    top: 12px;
+    right: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    z-index: 1001;
+  }
+
+  .site-nav .page-link {
+    display: block;
+    margin-left: 0;
+    padding: 10px 16px;
+  }
+}
+
+/* ========================================
+   FOOTER
+   ======================================== */
+
+.site-footer {
+  background: #f6f9fc;
+  border-top: 1px solid #e3eaf0;
+  padding: 35px 0;
+}
+
+.custom-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.footer-brand {
+  font-size: 17px;
+  font-weight: 700;
+  color: #14283e;
+  margin-bottom: 6px;
+}
+
+.footer-description {
+  color: #64748b;
+  font-size: 13px;
+  margin: 0;
+}
+
+.footer-links {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.footer-links a {
+  font-size: 13px;
+  font-weight: 550;
+  color: #486176;
+}
+
+.footer-links a:hover {
+  color: #176b91;
+}
+
+.footer-bottom {
+  margin-top: 24px;
+  padding-top: 15px;
+  border-top: 1px solid #e3eaf0;
+  color: #8291a1;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 600px) {
+  .custom-footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-links {
+    gap: 12px 18px;
+  }
+}
+
+
