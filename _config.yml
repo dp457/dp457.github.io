@@ -14,6 +14,8 @@ plugins:
 
 header_pages:
   - research.md
+  - experience.md
+  - education.md
   - publications.md
   - projects.md
   - blog.md
