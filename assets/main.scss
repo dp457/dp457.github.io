@@ -776,3 +776,36 @@ a:hover {
 .post-content table { display: block; overflow-x: auto; }
 @media (max-width: 720px) { .blog-grid { grid-template-columns: 1fr; } .blog-card { padding: 20px; } #blog-category { max-width: 100%; } }
 
+/* STAGE 7 — Append to your existing assets/main.scss */
+.academic-page-intro {max-width:850px;padding:15px 0 30px;margin-bottom:35px;border-bottom:1px solid var(--border,#e3eaf0)}
+.academic-page-eyebrow {font-size:12px;font-weight:750;letter-spacing:1.6px;color:var(--accent,#176b91)}
+.academic-page-intro h1 {font-size:clamp(36px,4vw,48px);margin:8px 0 18px}
+.academic-page-intro>p:last-child {font-size:16px;color:#536477;line-height:1.8}
+.teaching-section {margin:35px 0 48px}
+.teaching-section h2,.contact-layout h2 {font-size:24px;margin-bottom:12px}
+.teaching-section-lead {max-width:800px;color:#64748b;margin-bottom:22px}
+.teaching-grid {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.teaching-card {padding:24px;border:1px solid var(--border,#e3eaf0);border-radius:12px;background:#fff}
+.teaching-kicker {display:block;color:var(--accent,#176b91);font-size:11px;font-weight:750;letter-spacing:.8px;margin-bottom:12px}
+.teaching-card h3 {font-size:19px;line-height:1.4;margin-bottom:10px}
+.teaching-card p {font-size:14px;color:#64748b;margin:0}
+.teaching-subjects {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.teaching-subjects span {padding:14px 17px;border:1px solid var(--border,#e3eaf0);background:var(--soft,#f4f8fb);border-radius:9px;font-size:14px}
+.teaching-outro {border-top:1px solid var(--border,#e3eaf0);padding-top:28px}
+.academic-link-button {display:inline-block;margin-top:14px;padding:10px 17px;background:var(--accent,#176b91);color:#fff!important;border-radius:8px;font-size:14px;font-weight:650}
+.academic-link-button:hover {background:#125574;text-decoration:none}
+.contact-layout {display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,.85fr);gap:28px;align-items:start}
+.contact-primary,.contact-secondary {border:1px solid var(--border,#e3eaf0);border-radius:13px;padding:28px;background:#fff}
+.contact-secondary {background:var(--soft,#f4f8fb)}
+.contact-detail {margin:20px 0}
+.contact-detail-label {display:block;font-size:11px;font-weight:750;letter-spacing:1px;text-transform:uppercase;color:#64748b;margin-bottom:5px}
+.contact-detail p {margin:0}
+.contact-profile-list {list-style:none;margin:16px 0 26px;padding:0}
+.contact-profile-list li {border-bottom:1px solid #dce5ec;padding:10px 0}
+.contact-profile-list a {font-weight:600;font-size:14px}
+.contact-cv {border-top:1px solid #dce5ec;padding-top:20px}
+.contact-cv h3 {font-size:18px}
+.contact-cv p {font-size:14px;color:#64748b}
+.contact-cv a {font-size:14px;font-weight:650}
+@media(max-width:780px) {.teaching-grid,.contact-layout {grid-template-columns:1fr}.teaching-subjects {grid-template-columns:1fr}.contact-primary,.contact-secondary {padding:22px}}
+
