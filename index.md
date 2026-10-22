@@ -8,31 +8,22 @@ permalink: /
   <div class="hero-content">
 
     <p class="hero-eyebrow">
-      CYBERSECURITY · TRUSTWORTHY AI · AUTONOMOUS SYSTEMS
+      CYBERSECURITY · SECURE AI · AUTONOMOUS SYSTEMS
     </p>
 
     <h1>Dr Deepak Kumar Panda</h1>
 
     <h2>
-      Advancing the Security and Assurance
-      of Autonomous Systems
+      Lecturer in Secure Autonomy, Cranfield University
     </h2>
 
     <p>
-      My research focuses on cybersecurity, artificial
-      intelligence, reinforcement learning, and the
-      safety and assurance of autonomous systems.
-      I investigate how learning-enabled systems
-      can operate reliably under uncertainty,
-      adversarial conditions, and emerging
-      cybersecurity threats.
+      Dr Deepak Kumar Panda works in the areas of secure autonomous systems, artificial intelligence, and adversarial AI at Cranfield University. His research focuses on understanding and improving the security, robustness, and resilience of AI-enabled autonomous systems operating in complex and potentially adversarial environments. 
     </p>
 
     <p>
       My broader research interests include
-      adversarial machine learning, cyber-physical
-      systems, resilient decision-making, and
-      trustworthy autonomous intelligence.
+      secure and resilient autonomous systems, attack and defence strategies of AI-enabled autonomy, safety assurance and resilience of intelligent autonomous systems, and AI based red teaming and evaluation of autonomous systems.
     </p>
 
     <div class="hero-links">
