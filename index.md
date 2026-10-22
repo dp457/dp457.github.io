@@ -95,7 +95,7 @@ permalink: /
 </section>
 
 <section class="homepage-section">
-  <h2>Selected Publications</h2>
+  <h2>Latest Research Publications</h2>
 
   <div class="featured-publication">
     <h3>
@@ -111,18 +111,6 @@ permalink: /
       Navigation in Adversarial Airspace
     </h3>
     <p>Information Sciences, 2026</p>
-  </div>
-
-  <div class="featured-publication">
-    <h3>
-      Action Robust Reinforcement Learning for
-      Air Mobility Deconfliction Against
-      Conflict Induced Spoofing
-    </h3>
-    <p>
-      IEEE Transactions on Intelligent
-      Transportation Systems, 2024
-    </p>
   </div>
 
   <p>
