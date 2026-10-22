@@ -12,13 +12,14 @@ permalink: /teaching/
 
 <section class="teaching-section">
   <h2>Teaching at Cranfield University</h2>
-  <p class="teaching-section-lead">As a Research and Teaching Fellow in AI and Autonomous Systems, I contributed to teaching and delivering the following postgraduate modules.</p>
+  <p class="teaching-section-lead">As an academic, I am appointed to deliver the following postgraduate modules.</p>
   <div class="teaching-grid">
-    <article class="teaching-card"><span class="teaching-kicker">APPLIED AI MSc</span><h3>Statistical Learning Theory</h3><p>Statistical foundations of machine learning and learning from data.</p></article>
-    <article class="teaching-card"><span class="teaching-kicker">APPLIED AI MSc</span><h3>Large Language Model for Autonomous Systems</h3><p> LLM architecture and applications in robotics and autonomous systems.</p></article>
-    <article class="teaching-card"><span class="teaching-kicker">APPLIED AI MSc</span><h3>Multi-Agent Systems</h3><p> Multi-Agent Reinforcement Learning Design for autonomous systems.</p></article>
-    <article class="teaching-card"><span class="teaching-kicker">CONNECTED AND AUTONOMOUS VEHICLES MSc</span><h3>Sensors, Perception and Visualisation</h3><p>Sensing, perception, and visualisation in connected and autonomous systems.</p></article>
-    <article class="teaching-card"><span class="teaching-kicker">APPLIED AI MSc</span><h3>Data Analytics and Visualisation</h3><p>Methods for analysing, interpreting, and communicating data.</p></article>
+    <article class="teaching-card"><span class="teaching-kicker">Applied AI MSc</span><h3>Statistical Learning Theory</h3><p>Statistical foundations of machine learning and learning from data.</p></article>
+    <article class="teaching-card"><span class="teaching-kicker">Applied AI MSc</span><h3>Large Language Model for Autonomous Systems</h3><p> LLM architecture and applications in robotics and autonomous systems.</p></article>
+    <article class="teaching-card"><span class="teaching-kicker">Applied AI and Autonomous Drones MSc</span><h3>Multi-Agent Systems</h3><p> Multi-agent reinforcement learning Design for autonomous systems.</p></article>
+    <article class="teaching-card"><span class="teaching-kicker">Autonomous Drones MSc</span><h3>AI for Autonomous Systems </h3><p> Teaching different AI algorithms for drone autonomy.</p></article>
+    <article class="teaching-card"><span class="teaching-kicker">Connected and Autonomous Vehicles MSc</span><h3>Sensors, Perception and Visualisation</h3><p>Sensing, perception, and visualisation in connected and autonomous systems.</p></article>
+    <article class="teaching-card"><span class="teaching-kicker">Applied AI MSc</span><h3>Data Analytics and Visualisation</h3><p>Methods for analysing, interpreting, and communicating data for real-world engineering applications.</p></article>
   </div>
 </section>
 
