@@ -2,6 +2,7 @@
 layout: page
 title: Publications
 permalink: /publications/
+---
 <section class="publications-intro">
   <p class="publications-eyebrow">ACADEMIC RESEARCH</p>
   <h1>Publications</h1>
