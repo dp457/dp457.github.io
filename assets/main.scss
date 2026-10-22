@@ -836,3 +836,11 @@ a:hover {
 .education-entry > p:last-child { color: #4f6070; font-size: 14px; max-width: 760px; }
 @media (max-width: 760px) { .education-timeline { padding-left: 22px; } .education-entry::before { left: -29px; } }
 
+/* Hide Minima's automatic page title.
+   Custom page headings remain visible. */
+
+/* Hide duplicate page titles, but keep blog post titles */
+
+.page-content .page > .post-header {
+  display: none;
+}
