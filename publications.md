@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Publications
+title: ""
 permalink: /publications/
 ---
 <section class="publications-intro">
