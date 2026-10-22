@@ -2,6 +2,7 @@
 layout: page
 title: Research
 permalink: /research/
+---
 <section class="research-page-intro">
   <p class="section-eyebrow">RESEARCH OVERVIEW</p>
   <h1>Research</h1>
