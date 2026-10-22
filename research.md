@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Research
+title: ""
 permalink: /research/
 ---
 <section class="research-page-intro">
