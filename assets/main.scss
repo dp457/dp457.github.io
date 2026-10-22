@@ -841,6 +841,9 @@ a:hover {
 
 /* Hide duplicate page titles, but keep blog post titles */
 
-.page-content .page > .post-header {
+/* Hide automatic headings on website pages,
+   while preserving individual blog post titles */
+
+.page-content article.post:not(.h-entry) > .post-header {
   display: none;
 }
