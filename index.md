@@ -83,11 +83,11 @@ permalink: /
     </div>
 
     <div class="research-card">
-      <h3>AI and System Safety Assurance</h3>
+      <h3>Resilience of Critical Infrastructure</h3>
       <p>
-        Safety-critical autonomy, cybersecurity
-        assurance, and evidence-based evaluation
-        of learning-enabled systems.
+        Intelligent control, optimisation, and resilience of interconnected infrastructure,
+        including smart grids, energy systems, unmanned air traffic management under uncertainty 
+        and disruptions.
       </p>
     </div>
 
