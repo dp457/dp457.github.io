@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Projects
+title: ""
 permalink: /projects/
+---
 <section class="research-page-intro">
   <p class="section-eyebrow">RESEARCH DIRECTIONS</p>
   <h1>Projects</h1>
