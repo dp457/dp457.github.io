@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ""
+title: Education
 permalink: /education/
 ---
 <section class="experience-intro">
