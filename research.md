@@ -6,8 +6,20 @@ permalink: /research/
 <section class="research-page-intro">
   <p class="section-eyebrow">RESEARCH OVERVIEW</p>
   <h1>Research</h1>
-  <p class="section-lead">My research examines the <strong>cybersecurity, safety, reliability and assurance of autonomous systems</strong>, with particular attention to how learning-enabled and cyber-physical systems behave under uncertainty and adversarial conditions.</p>
+    <p class="section-lead">My research examines the <strong>cybersecurity, safety, reliability and assurance of autonomous systems</strong>, with particular attention to how learning-enabled and cyber-physical systems behave under uncertainty and adversarial conditions.</p>
 </section>
+
+<!-- Research Vision Schematic -->
+<figure class="research-vision-figure">
+  <img
+    src="{{ '/assets/images/research_vision.png' | relative_url }}"
+    alt="Research vision connecting cybersecurity, trustworthy AI, AI and system assurance, and critical infrastructure resilience."
+    loading="lazy">
+  <figcaption>
+    Research vision: connecting cybersecurity, trustworthy AI,
+    system assurance, and critical infrastructure resilience.
+  </figcaption>
+</figure>
 <section class="research-page-section" aria-labelledby="research-themes">
   <h2 id="research-themes">Research themes</h2>
   <div class="research-theme-grid">
