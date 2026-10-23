@@ -7,7 +7,7 @@
   volume: ''
   number: ''
   pages: ''
-  doi: ''
+  doi: 'https://arxiv.org/abs/2609.14806v1'
   url: ''
 - id: panda2026curriculum
   year: 2026
@@ -18,7 +18,7 @@
   volume: ''
   number: ''
   pages: ''
-  doi: ''
+  doi: 'https://doi.org/10.1109/TR.2026.3742597'
   url: ''
 - id: panda2026meta
   year: 2026
