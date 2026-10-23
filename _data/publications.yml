@@ -29,7 +29,7 @@
   volume: ''
   number: ''
   pages: '124096'
-  doi: ''
+  doi: 'https://doi.org/10.1016/j.ins.2026.124096'
   url: ''
 - id: conrad2025dynamic
   year: 2025
@@ -40,7 +40,7 @@
   volume: ''
   number: ''
   pages: 1--13
-  doi: ''
+  doi: 'https://doi.org/10.1109/ICNS65417.2025.10976825'
   url: ''
 - id: panda2025gaussian
   year: 2025
@@ -51,7 +51,7 @@
   volume: '267'
   number: ''
   pages: '126151'
-  doi: ''
+  doi: 'https://doi.org/10.1016/j.eswa.2024.126151'
   url: ''
 - id: panda2025generative
   year: 2025
@@ -62,7 +62,7 @@
   volume: ''
   number: ''
   pages: 6295--6300
-  doi: ''
+  doi: 'https://doi.org/10.1109/SMC58881.2025.11343517'
   url: ''
 - id: perrusquia2025interpreting
   year: 2025
@@ -74,7 +74,7 @@
   volume: ''
   number: ''
   pages: 5643--5648
-  doi: ''
+  doi: 'https://doi.org/10.1109/SMC58881.2025.11342492'
   url: ''
 - id: panda2025parametric
   year: 2025
@@ -85,7 +85,7 @@
   volume: '250'
   number: ''
   pages: '123250'
-  doi: ''
+  doi: 'https://doi.org/10.1016/j.renene.2025.123250'
   url: ''
 - id: panda2025real
   year: 2025
@@ -96,7 +96,7 @@
   volume: ''
   number: ''
   pages: ''
-  doi: ''
+  doi: 'https://arxiv.org/abs/2507.11173v1'
   url: ''
 - id: panda2024action
   year: 2024
@@ -107,7 +107,7 @@
   volume: '25'
   number: '12'
   pages: 21343--21355
-  doi: ''
+  doi: 'https://doi.org/10.1109/TITS.2024.3454354'
   url: ''
 - id: panda2024observer
   year: 2024
@@ -119,7 +119,7 @@
   volume: '186'
   number: ''
   pages: '115323'
-  doi: ''
+  doi: 'https://doi.org/10.1016/j.chaos.2024.115323'
   url: ''
 - id: panda2024prioritized
   year: 2024
@@ -130,7 +130,7 @@
   volume: '434'
   number: ''
   pages: '139947'
-  doi: ''
+  doi: 'https://doi.org/10.1016/j.jclepro.2023.139947'
   url: ''
 - id: conrad2024simulating
   year: 2024
@@ -141,7 +141,7 @@
   volume: ''
   number: ''
   pages: 1--14
-  doi: ''
+  doi: 'https://doi.org/10.1109/AERO58975.2024.10521373'
   url: ''
 - id: alyami2023bayesian
   year: 2023
@@ -152,7 +152,7 @@
   volume: '23'
   number: '10'
   pages: '4734'
-  doi: ''
+  doi: 'https://doi.org/10.3390/s23104734'
   url: ''
 - id: panda2023fragility
   year: 2023
@@ -162,8 +162,8 @@
   type: Conference paper
   volume: ''
   number: ''
-  pages: 1--7
-  doi: ''
+  pages: 1-7
+  doi: 'https://doi.org/10.1109/VTC2023-Fall60731.2023.10333535'
   url: ''
 - id: panda2023hyperparameter
   year: 2023
@@ -174,7 +174,7 @@
   volume: '214'
   number: ''
   pages: '119127'
-  doi: ''
+  doi: 'https://doi.org/10.1016/j.eswa.2022.119127'
   url: ''
 - id: conrad2023intelligent
   year: 2023
@@ -185,7 +185,7 @@
   volume: ''
   number: ''
   pages: ''
-  doi: ''
+  doi: 'https://doi.org/10.1109/DASC58513.2023.10311299'
   url: ''
 - id: panda2022data
   year: 2022
@@ -197,7 +197,7 @@
   number: ''
   pages: ''
   doi: ''
-  url: ''
+  url: 'https://ore.exeter.ac.uk/articles/thesis/Data_Analytics_and_Control_for_Stability_and_Resilience_of_Future_Smart_Grids/29790299'
 - id: halder2022specified
   year: 2022
   title: Specified QoS based networked observer and PI controller design with disturbance and noise rejection under random
@@ -208,7 +208,7 @@
   volume: '604'
   number: ''
   pages: '127965'
-  doi: ''
+  doi: 'https://doi.org/10.1016/j.physa.2022.127965'
   url: ''
 - id: ghosh2021cross
   year: 2021
@@ -219,7 +219,7 @@
   volume: ''
   number: ''
   pages: 1--6
-  doi: ''
+  doi: 'https://doi.org/10.1109/SeFet48154.2021.9375687'
   url: ''
 - id: panda2021economic
   year: 2021
@@ -231,7 +231,7 @@
   volume: '137'
   number: ''
   pages: '110474'
-  doi: ''
+  doi: 'https://doi.org/10.1016/j.rser.2020.110474'
   url: ''
 - id: halder2021qos
   year: 2021
@@ -242,7 +242,7 @@
   volume: '401'
   number: ''
   pages: '126125'
-  doi: ''
+  doi: 'https://doi.org/10.1016/j.amc.2021.126125'
   url: ''
 - id: panda2021robust
   year: 2021
@@ -253,7 +253,7 @@
   volume: ''
   number: ''
   pages: 1--7
-  doi: ''
+  doi: 'https://doi.org/10.1109/REEPE51337.2021.9388045'
   url: ''
 - id: panda2021smart
   year: 2021
@@ -265,7 +265,7 @@
   volume: '301'
   number: ''
   pages: '126877'
-  doi: ''
+  doi: 'https://doi.org/10.1016/j.jclepro.2021.126877'
   url: ''
 - id: panda2020toward
   year: 2020
@@ -277,7 +277,7 @@
   volume: '19'
   number: '2'
   pages: 1217--1232
-  doi: ''
+  doi: 'https://doi.org/10.1109/TASE.2020.3042570'
   url: ''
 - id: panda2019regression
   year: 2019
@@ -288,7 +288,7 @@
   volume: ''
   number: ''
   pages: 1--6
-  doi: ''
+  doi: 'https://doi.org/10.1109/ICESI.2019.8863027'
   url: ''
 - id: panda2016sensorless
   year: 2016
@@ -299,5 +299,5 @@
   volume: ''
   number: ''
   pages: 274--279
-  doi: ''
+  doi: 'https://doi.org/10.1109/ICETEESES.2016.7581393'
   url: ''
