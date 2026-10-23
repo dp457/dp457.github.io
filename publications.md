@@ -27,14 +27,22 @@ permalink: /publications/
 {% for pub in sorted_pubs %}
 <article class="pub-entry" data-year="{{ pub.year }}" data-type="{{ pub.type | escape }}" data-search="{{ pub.title | append: ' ' | append: pub.authors | append: ' ' | append: pub.venue | append: ' ' | append: pub.year | downcase | escape }}">
   <div class="pub-meta"><span class="pub-tag">{{ pub.type | escape }}</span><span class="pub-year">{{ pub.year }}</span></div>
-  <h2>{{ pub.title | escape }}</h2>
+  <h2>
+    {% if pub.doi != blank %}
+    <a href="https://doi.org/{{ pub.doi | escape }}" target="_blank" rel="noopener noreferrer">
+      {{ pub.title | escape }}
+    </a>
+  {% elsif pub.url != blank %}
+    <a href="{{ pub.url | escape }}" target="_blank" rel="noopener noreferrer">
+      {{ pub.title | escape }}
+    </a>
+  {% else %}
+    {{ pub.title | escape }}
+  {% endif %}
+  <h2>>
   <p class="pub-authors">{{ pub.authors | escape }}</p>
-  <p class="pub-venue">{{ pub.venue | escape }}{% if pub.volume != blank %}, vol. {{ pub.volume | escape }}{% endif %}{% if pub.number != blank %}, no. {{ pub.number | escape }}{% endif %}{% if pub.pages != blank %}, {{ pub.pages | escape }}{% endif %}</p>
-  <div class="pub-actions">
-    {% if pub.url != blank %}<a href="{{ pub.url | escape }}" target="_blank" rel="noopener noreferrer">Paper ↗</a>{% endif %}
-    {% if pub.doi != blank %}<a href="https://doi.org/{{ pub.doi | escape }}" target="_blank" rel="noopener noreferrer">DOI ↗</a>{% endif %}
-    <button type="button" class="pub-bibtex" data-id="{{ pub.id | escape }}" data-title="{{ pub.title | escape }}" data-authors="{{ pub.authors | escape }}" data-year="{{ pub.year }}" data-venue="{{ pub.venue | escape }}" data-type="{{ pub.type | escape }}" data-doi="{{ pub.doi | escape }}">Copy BibTeX</button>
-  </div>
+  <p class="pub-venue">{{ pub.venue | escape }}</p>
+  {% endif %}{% if pub.number != blank %}, no. {{ pub.number | escape }}{% endif %}{% if pub.pages != blank %}, {{ pub.pages | escape }}{% endif %}</p>
 </article>
 {% endfor %}
 </div>
@@ -64,7 +72,6 @@ permalink: /publications/
   [search, year, type].forEach(function (el) { el.addEventListener('input', filter); });
   clear.addEventListener('click', function () { search.value = ''; year.value = 'all'; type.value = 'all'; filter(); search.focus(); });
   filter();
-  document.querySelectorAll('.pub-bibtex').forEach(function (button) {
     button.addEventListener('click', async function () {
       const d = button.dataset;
       const kind = d.type === 'Journal article' ? 'article' : d.type === 'Conference paper' ? 'inproceedings' : 'phdthesis';
