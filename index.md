@@ -28,12 +28,12 @@ permalink: /
 
     <div class="hero-links">
       <a class="hero-button primary"
-         href="{{ '/research.html' | relative_url }}">
+         href="{{ '/research/' | relative_url }}">
         Explore Research
       </a>
 
       <a class="hero-button secondary"
-         href="{{ '/publications.html' | relative_url }}">
+         href="{{ '/publications/' | relative_url }}">
         Publications
       </a>
     </div>
