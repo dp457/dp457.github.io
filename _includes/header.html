@@ -1,0 +1,24 @@
+<header class="site-header" role="banner">
+  <div class="wrapper custom-header-inner">
+    <a class="site-title" rel="author" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
+    <nav class="custom-site-nav" aria-label="Main navigation">
+      <details class="nav-dropdown">
+        <summary>About <span aria-hidden="true">▾</span></summary>
+        <div class="nav-dropdown-menu">
+          <a href="{{ '/experience/' | relative_url }}">Experience</a>
+          <a href="{{ '/education/' | relative_url }}">Education</a>
+          <a href="{{ '/contact/' | relative_url }}">Contact</a>
+        </div>
+      </details>
+      <details class="nav-dropdown">
+        <summary>Research <span aria-hidden="true">▾</span></summary>
+        <div class="nav-dropdown-menu">
+          <a href="{{ '/research/' | relative_url }}">Research Vision</a>
+          <a href="{{ '/publications/' | relative_url }}">Publications</a>
+        </div>
+      </details>
+      <a class="nav-top-link" href="{{ '/teaching/' | relative_url }}">Teaching</a>
+      <a class="nav-top-link" href="{{ '/blog/' | relative_url }}">Technical Blog</a>
+    </nav>
+  </div>
+</header>
