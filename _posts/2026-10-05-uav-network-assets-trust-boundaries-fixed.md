@@ -4,7 +4,7 @@ title: "UAV Network Assets and Trust Boundaries"
 date: 2026-11-02  +0000
 categories: [UAV, cybersecurity, threat-models]
 tags: [UAV, 6G, 5G, cybersecurity, trust-boundaries, replay-attacks, swarm]
-excerpt: "Lesson 1 of the 6G UAV Cybersecurity series: map the assets and trust boundaries in a networked UAV swarm, then analyse how replayed telemetry can mislead separation monitoring."
+excerpt: "Mapping the assets and trust boundaries in a networked UAV swarm, then analyse how replayed telemetry can mislead separation monitoring."
 ---
 
 **Learning objective.** Identify where external information becomes trusted enough to influence a drone's navigation, and describe an adversary that exploits that crossing.
