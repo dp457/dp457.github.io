@@ -30,6 +30,7 @@ I contribute to the international research community through peer review of scho
 - IEEE Sensors Journal
 - IEEE Sensors Letters
 - IEEE Transactions on Consumer Electronics
+- IEEE Transactions on Reliability
 
 ### Nature Portfolio and Royal Society Journals
 
