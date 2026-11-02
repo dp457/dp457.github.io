@@ -33,7 +33,7 @@ I contribute to the international research community through peer review of scho
 
 ### Nature Portfolio and Royal Society Journals
 
-- Communications Engineering (Nature Portfolio)
+- Nature Communications Engineering
 - Journal of the Royal Society Interface
 
 ### Other International Journals
