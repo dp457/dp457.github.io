@@ -75,33 +75,61 @@ At time $t=10$ seconds, Drone A reports:
 sender=A, sequence=41, sample_time=10.0, position_x=0.0
 ```
 
-Over the next two seconds, A moves at $1.5\ \mathrm{m/s}$, reaching $x=3$ metres. Drone B is at $x=4$ metres.
 
-An adversary controls the application telemetry relay. The adversary suppresses newer reports from A and resubmits the old application message at $t=12$ seconds.
+<p>
+Over the next two seconds, A moves at
+\(1.5\ \mathrm{m/s}\), reaching \(x=3\) metres.
+Drone B is at \(x=4\) metres.
+</p>
 
-The old message **may still carry a valid application signature**, because its original signed contents have not changed. The failure occurs if B treats recent **arrival** as evidence of recent **measurement**, without checking the sample time or repeated sequence number.
+<p>
+An adversary controls the application telemetry relay.
+The adversary suppresses newer reports from A and
+resubmits the old application message at \(t=12\) seconds.
+</p>
 
-### Calculate the message age
+<p>
+The old message <strong>may still carry a valid application
+signature</strong>, because its original signed contents have
+not changed. The failure occurs if B treats recent
+<strong>arrival</strong> as evidence of recent
+<strong>measurement</strong>, without checking the sample
+time or repeated sequence number.
+</p>
 
-$$
-\Delta t=t_{\mathrm{receive}}-t_{\mathrm{sample}}=12-10=2\ \mathrm{s}.
-$$
+<h3>Calculate the message age</h3>
 
-### Compare perceived and actual separation
+<div class="math-display">
+\[
+\Delta t=t_{\mathrm{receive}}-t_{\mathrm{sample}}
+=12-10=2\ \mathrm{s}.
+\]
+</div>
 
-Using the stale report, B estimates:
+<h3>Compare perceived and actual separation</h3>
 
-$$
-\hat d=|4-0|=4\ \mathrm{m}.
-$$
+<p>Using the stale report, B estimates:</p>
 
-The true separation is:
+<div class="math-display">
+\[
+\hat{d}=|4-0|=4\ \mathrm{m}.
+\]
+</div>
 
-$$
+<p>The true separation is:</p>
+
+<div class="math-display">
+\[
 d=|4-3|=1\ \mathrm{m}.
-$$
+\]
+</div>
 
-If the illustrative minimum permitted separation is $2$ metres, the stale-data separation check remains silent even though the true separation violates the threshold.
+<p>
+If the illustrative minimum permitted separation is
+\(2\) metres, the stale-data separation check remains
+silent even though the true separation violates the threshold.
+</p>
+
 
 **Interpretation:** the calculation demonstrates a *false negative in a simplified separation check*. It does **not** establish that a collision occurs; that would require a closed-loop study of avoidance actions, independent sensors, and fallback logic.
 
