@@ -1,19 +1,17 @@
 ---
 layout: post
 title: "UAV Network Assets and Trust Boundaries"
-date: 2026-10-05 09:00:00 +0000
-categories: [6g-uav-cybersecurity, threat-models]
+date: 2026-11-02  +0000
+categories: [UAV, cybersecurity, threat-models]
 tags: [UAV, 6G, 5G, cybersecurity, trust-boundaries, replay-attacks, swarm]
 excerpt: "Lesson 1 of the 6G UAV Cybersecurity series: map the assets and trust boundaries in a networked UAV swarm, then analyse how replayed telemetry can mislead separation monitoring."
 ---
-
-*6G UAV Cybersecurity · Lesson 1 · Threat models · Approximately 20 minutes*
 
 **Learning objective.** Identify where external information becomes trusted enough to influence a drone's navigation, and describe an adversary that exploits that crossing.
 
 **Prerequisite.** Basic familiarity with UAV navigation and telemetry. No previous lessons are required.
 
-## 1. Mission scenario: three search-and-rescue drones
+## 1. Mission scenario: Search-and-Rescue drones
 
 Imagine three drones conducting search and rescue. Each flies autonomously, shares its position with the others, and receives search assignments from a ground control station (GCS). A cellular network carries these messages. An **edge server**, a computer hosting applications near network users, relays swarm telemetry. Each drone makes its own avoidance decisions onboard.
 
@@ -32,7 +30,7 @@ An **asset** is something whose compromise matters, such as command authority, a
 
 An **attack surface** is an exposed interface through which an adversary can interact, such as a telemetry API, wireless receiver, software update service, or command interface.
 
-A **trust boundary** is a crossing where information or commands enter a different security context and require an explicit acceptance decision.
+A **trust boundary** is a crossing where commands enter a different security context and require an explicit acceptance decision.
 
 Receiving a peer-position message, for example, creates a boundary between another system's report and the receiving drone's navigation logic. The receiver must decide which uses of that report are justified.
 
@@ -45,7 +43,7 @@ Receiving a peer-position message, for example, creates a boundary between anoth
 
 ### Standards checkpoint
 
-As of **5 October 2026**, 6G remained under development. The ITU's [IMT-2030 framework](https://www.itu.int/en/ITU-R/study-groups/rsg5/rwp5d/IMT-2030/Pages/default.aspx), approved in November 2023, includes security and resilience; its 2026 requirements and evaluation reports were described as drafts. The swarm architecture here is illustrative, not a claim about a deployed 6G standard.
+The ITU's [IMT-2030 framework](https://www.itu.int/en/ITU-R/study-groups/rsg5/rwp5d/IMT-2030/Pages/default.aspx), approved in November 2023, includes security and resilience; its 2026 requirements and evaluation reports were described as drafts. The swarm architecture here is illustrative, not a claim about a deployed 6G standard.
 
 A standardized reference is [ETSI TS 133 256 V19.2.0](https://www.etsi.org/deliver/etsi_ts/133200_133299/133256/19.02.00_60/ts_133256v190200p.pdf) (February 2026), covering **5G UAS security**. Clause 5.1 assigns UAS traffic protection to the UAS provider independently of cellular-network protection. Consequently, application-level message acceptance is an explicit design responsibility.
 
