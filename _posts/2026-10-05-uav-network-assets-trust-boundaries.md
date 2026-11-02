@@ -83,23 +83,23 @@ The old message **may still carry a valid application signature**, because its o
 
 ### Calculate the message age
 
-\[
+$$
 \Delta t=t_{\mathrm{receive}}-t_{\mathrm{sample}}=12-10=2\ \mathrm{s}.
-\]
+$$
 
 ### Compare perceived and actual separation
 
 Using the stale report, B estimates:
 
-\[
+$$
 \hat d=|4-0|=4\ \mathrm{m}.
-\]
+$$
 
 The true separation is:
 
-\[
+$$
 d=|4-3|=1\ \mathrm{m}.
-\]
+$$
 
 If the illustrative minimum permitted separation is \(2\) metres, the stale-data separation check remains silent even though the true separation violates the threshold.
 
