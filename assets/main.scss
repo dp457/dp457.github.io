@@ -892,3 +892,30 @@ a:hover {
   .custom-site-nav { width: 100%; gap: 0.75rem 1.15rem; padding-bottom: 0.6rem; }
   .custom-site-nav .nav-dropdown-menu { left: 0; }
 }
+/* Consistent navigation link styling */
+.site-header .site-nav a,
+.site-header .site-nav a:visited {
+  color: #172b43 !important;
+  text-decoration: none;
+}
+
+.site-header .site-nav a:hover,
+.site-header .site-nav a:focus-visible {
+  color: #1762a5 !important;
+}
+
+/* Ensure navigation remains visible */
+.site-header {
+  position: relative;
+  z-index: 1000;
+}
+
+.site-header .site-nav {
+  position: relative;
+  z-index: 1001;
+}
+
+/* Prevent links from being clipped */
+.site-header .site-nav {
+  overflow: visible;
+}
