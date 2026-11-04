@@ -32,13 +32,15 @@ I contribute to the international research community through peer review of scho
 - IEEE Sensors Letters
 - IEEE Transactions on Consumer Electronics
 - IEEE Transactions on Reliability
+- IEEE/CAA Journal of Automatica Sinica
 
 ### Nature Portfolio and Royal Society Journals
 
 - Nature Communications Engineering
-- Journal of the Royal Society Interface
+- Royal Society Open Interface
 
 ### Other International Journals
 - Applied Artificial Intelligence
+- Expert Systems
 - International Journal of Power and Energy Systems
 
