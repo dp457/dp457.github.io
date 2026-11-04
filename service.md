@@ -23,6 +23,7 @@ I contribute to the international research community through peer review of scho
 - IEEE Transactions on Circuits and Systems for Video Technology
 - IEEE Transactions on Communications
 - IEEE Transactions on Dependable and Secure Computing
+- IEEE Transactions on Vehicular Technology
 - IEEE Internet of Things Journal
 - IEEE Signal Processing Letters
 - IEEE Wireless Communications Letters
